@@ -48,11 +48,6 @@ namespace ClickBankAPI {
         public List<VendorVariableElement>? Items { get; set; }
     }
 
-    public class VendorVariableElement {
-        public string? Name { get; set; }
-        public string? Value { get; set; }
-    }
-
     public class LineItemData {
         public string? ItemNo { get; set; }
         public string? ProductTitle { get; set; }
